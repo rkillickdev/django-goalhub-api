@@ -11,7 +11,7 @@ class Team(models.Model):
     user = models.ForeignKey(
         User, default=None, null=True, blank=True, on_delete=models.SET_NULL
     )
-    name = models.CharField(max_length=255)
+    name = models.CharField(max_length=255, unique=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
