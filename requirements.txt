@@ -2,4 +2,5 @@ django
 django-cors-headers
 django-ninja
 django-ninja-jwt[crypto]
+python-decouple
 rav
