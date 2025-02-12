@@ -4,3 +4,4 @@ django-ninja
 django-ninja-jwt[crypto]
 python-decouple
 rav
+whitenoise==6.4.0
